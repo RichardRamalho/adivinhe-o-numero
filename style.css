@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --first-color: hsla(240, 27%, 28%, 1);
+  --font-family-01: 'Montserrat', sans-serif;
+  --font-family-02: 'DM Sans', sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+    background: linear-gradient(315deg, #C2E9FB 0%, #A1C4FD 100%);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+button {
+    color: hsla(0, 0%, 100%, 1);
+    background-color: hsla(240, 81%, 71%, 1);
+    font-family: var(--font-family-02);
+    font-weight: 700;
+    font-size: 1.6rem;
+    border-radius: 0 4px 4px 0;
+    border: 0;
+    /*width: 8.2rem;
+    height: 5.3rem;*/
+    cursor: pointer;
+    transition: background .3s;
+}
+
+button:hover {
+    background-color: #6363ce;
+}
+
+.hide {
+    display: none;
+}
+
+main {
+    background-color: white;
+    width: min(42.8rem, 90%);
+    height: 27rem;
+    text-align: center;
+    align-items: center;
+    padding: 4.8rem 6.4rem 6.4rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    margin-top: -12rem;
+}
+
+
+/*screen-1*/
+h1 {
+    color: var(--first-color);
+    font-size: 2.4rem;
+    font-weight: 600;
+    font-family: var(--font-family-01);
+    margin-bottom: 1.6rem;
+}
+
+p {
+    font-weight: 400;
+    color: var(--first-color);
+    font-family: var(--font-family-02);
+}
+
+form {
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+input, button {
+    padding: 1.6rem;
+}
+
+input {
+    font-family: var(--font-family-02);
+    font-weight: 400;
+    color: var(--first-color);
+    background: #DCE2E9;
+    font-size: 1.6rem;
+    width: 5rem;
+    height: 5.3rem;
+    border-radius: 4px 0 0 4px;
+    border: 0;
+
+}
+/*screen-1*/
+
+/*screen-2*/
+h2 {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    font-family: var(--font-family-01);
+    color: var(--first-color);
+    margin-bottom: 3.3rem;
+}
+
+.screen2 button {
+    border-radius: 4px;
+}
+/*screen-2*/
+
